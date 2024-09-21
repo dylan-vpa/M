@@ -51,10 +51,14 @@ const Gift = () => {
         await import("./history.css"); // Importar estilos para History
         document.documentElement.style.overflow = "auto"; // Restablecer overflow en html
         document.body.style.overflow = "auto"; // Restablecer overflow en body
+        document.body.style.backgroundColor = "white"; // Establecer fondo blanco en body
+        document.documentElement.style.backgroundColor = "white"; // Establecer fondo blanco en html
       } else {
         await import("./gift.css"); // Importar estilos para Gift
         document.documentElement.style.overflow = "hidden"; // Agregar overflow hidden a html
         document.body.style.overflow = "hidden"; // Agregar overflow hidden a body
+        document.body.style.backgroundColor = ""; // Restablecer fondo en body
+        document.documentElement.style.backgroundColor = ""; // Restablecer fondo en html
       }
     };
     loadStyles();
