@@ -46,11 +46,14 @@ const Gift = () => {
 
   // Importar estilos condicionalmente
   useEffect(() => {
-    if (showHistory) {
-      import("./history.css"); // Importar estilos para History
-    } else {
-      import("./gift.css"); // Importar estilos para Gift
-    }
+    const loadStyles = async () => {
+      if (showHistory) {
+        await import("./history.css"); // Importar estilos para History
+      } else {
+        await import("./gift.css"); // Importar estilos para Gift
+      }
+    };
+    loadStyles();
   }, [showHistory]);
 
   useEffect(() => {
