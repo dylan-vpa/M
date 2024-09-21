@@ -49,6 +49,8 @@ const Gift = () => {
     const loadStyles = async () => {
       if (showHistory) {
         await import("./history.css"); // Importar estilos para History
+        document.documentElement.style.overflow = "auto"; // Restablecer overflow en html
+        document.body.style.overflow = "auto"; // Restablecer overflow en body
       } else {
         await import("./gift.css"); // Importar estilos para Gift
         document.documentElement.style.overflow = "hidden"; // Agregar overflow hidden a html
