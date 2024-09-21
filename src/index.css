@@ -13,18 +13,16 @@ html {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  overflow: hidden;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 :root {
   font-family: "Handlee", cursive;
-  background-color: #252525;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #252525;
 }

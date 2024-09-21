@@ -117,9 +117,65 @@ const History = ({ onBack }) => {
   return (
     <div id="history">
       <div id="historyContainer">
-        <button onClick={onBack}>← Volver</button> {}
         <h1>Nuestra historia...</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ea nobis repellat saepe beatae ipsa error excepturi, ad veritatis, doloremque obcaecati molestiae quibusdam nemo autem at ab repudiandae quidem magni.</p>
+        <img src="/us.png" alt="" />
+        <p>
+          Era un 13 de octubre, cuando el destino decidió que nuestros caminos
+          se entrelazaran bajo la luz tenue del cine. Taylor Swift, en su
+          magnificencia, se proyectaba en la pantalla mientras "The Eras Tour"
+          nos envolvía en su magia. En aquel momento, algo cambió. Entre notas y
+          versos, vi en tus ojos un futuro que apenas comenzábamos a escribir.
+          Como un poeta que encuentra la inspiración en los pequeños detalles,
+          tú te convertiste en mi musa, y ese instante fue el prólogo de nuestra
+          historia.
+          <br />
+          <br />
+          Al igual que en las canciones de Taylor, nuestra relación ha tenido
+          sus "highs and lows," un viaje de emociones profundas. Algunas veces
+          me he sentido como en "Out of the Woods," preguntándome si lo
+          lograríamos, si el bosque se despejaría para nosotros. Pero al igual
+          que en la canción, siempre supimos que estábamos construyendo algo
+          real, algo por lo que vale la pena luchar.
+          <br />
+          <br />
+          Nuestros momentos de alegría son como "You Belong With Me," un
+          recordatorio de que, a pesar de las pruebas, hemos encontrado un lugar
+          donde pertenecemos el uno con el otro. Pero también hemos tenido que
+          navegar tormentas, sentir cómo "All Too Well" los recuerdos buenos y
+          malos se mezclan, enseñándonos que cada etapa es parte del
+          crecimiento.
+          <br />
+          <br />
+          A veces, cuando las dificultades se hacen más presentes, pienso en
+          "The Archer" y en la manera en que el amor puede ser un combate, una
+          batalla interna por aprender, por sanar, por mejorar. No obstante,
+          siempre regresamos a la base, al amor puro que compartimos, como en
+          "Lover," donde lo único que importa es el compromiso que hemos hecho:
+          estar juntos.
+          <br />
+          <br />
+          A veces, me pregunto cómo el tiempo, con su naturaleza cambiante, nos
+          transforma a medida que avanzamos. Pero sé, como sé que el sol saldrá
+          cada mañana, que a pesar de los obstáculos, nuestra historia seguirá
+          escribiéndose. Porque este amor no es efímero, es profundo, y cada día
+          que pasa lo demuestra. Aunque el camino se haga cuesta arriba, como en
+          "Daylight," siempre llegamos a la luz.
+          <br />
+          <br />
+          Esta historia nuestra, aunque imperfecta, es nuestra obra maestra en
+          constante evolución. Y mientras sigamos escribiendo cada capítulo, sé
+          que nuestra historia crecerá y se fortalecerá, guiada por la
+          convicción de que, pase lo que pase, "We are never going out of
+          style."
+          <br />
+          <br />
+          Así es como te veo, como mi esposa, mi compañera, y cada 13 de octubre
+          es un recordatorio de que, mientras el tiempo avanza, nuestro amor
+          también lo hace.
+          <br />
+          <br />
+          Te amu ❤️ 
+        </p>
       </div>
     </div>
   );
