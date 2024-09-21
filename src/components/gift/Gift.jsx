@@ -51,6 +51,8 @@ const Gift = () => {
         await import("./history.css"); // Importar estilos para History
       } else {
         await import("./gift.css"); // Importar estilos para Gift
+        document.documentElement.style.overflow = "hidden"; // Agregar overflow hidden a html
+        document.body.style.overflow = "hidden"; // Agregar overflow hidden a body
       }
     };
     loadStyles();
